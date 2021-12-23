@@ -6,7 +6,7 @@ Http1.1 :=
 ==============
 * Published in the year of 1997
 * Prioritization  -> In this version loading issuse found, like if js file have heavy memory file then complete website need to waited .. user thinks that website is not working
-* In this 6 Parallel request sent for single three hand shaking 
+* In this, 6 request are Parallelely sent for one time hand shaking (three hand shaking) 
 * Header implemented
 
 
@@ -14,7 +14,7 @@ Http2  :=
 =============
 * Published in the year of 2015
 * Prioritization
-* In this all request send within an specified time for an only single three hand shaking. So, probably time comsumes less
+* In this, all request send with an specific time stamp  for all request hence  only one time hand shaking is done(three hand shaking). So, probably time comsumes less
 * Header implemented
 
 
@@ -38,11 +38,13 @@ Http2  :=
 
   To access the members of object following can be done:
 
-  var names = studentDetails.name;
-  console.log(names)
+  var nameValue = studentDetails.name;
+  var ageValue = studentDetails.age;
+  console.log(nameValue);
+ console.log(ageValue);
 
-Object is an call-by-reference in nature:
-Like if we assign another variable to same object name it will not copy the values . Instead it will copy of studentDetails objects
+(Object is an call-by-reference in nature:)
+Like if we assign another variable to same object name it will not copy the values . Instead it will copy of studentDetails reference objects
   eg:
     var duplicateStudentDetails = studentDetails;
       --> this duplicateStudentDetails objects also refernce to studentDetails only .. it will not create new values..
