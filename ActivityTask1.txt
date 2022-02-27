@@ -1,4 +1,10 @@
-1. Difference between http1.1 and http2
+1. To read:
+------------
+https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages
+https://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language
+https://cs.lmu.edu/~ray/notes/paradigms/
+
+2. Difference between http1.1 and http2
 
 HTTP : HyperText Transfer Protocol
 http --> Works over TCP(transfer control protocol)
@@ -18,7 +24,7 @@ Http2  :=
 * Header implemented
 
 
-2. Write a blog about objects and its internal representation in Javascript
+3. Write a blog about objects and its internal representation in Javascript
 
   Objects:
   ==========
