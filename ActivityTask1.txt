@@ -5,7 +5,7 @@ http --> Works over TCP(transfer control protocol)
 Http1.1 :=
 ==============
 * Published in the year of 1997
-* Prioritization  -> In this version loading issuse found, like if js file have heavy memory file then complete website need to waited .. user thinks that website is not working
+* Prioritization  -> In this version loading issuse found, like if js file have heavy memory file, then complete website need to waited .. user thinks that website is not working
 * In this, 6 request are Parallelely sent for one time hand shaking (three hand shaking) 
 * Header implemented
 
@@ -48,4 +48,7 @@ Like if we assign another variable to same object name it will not copy the valu
   eg:
     var duplicateStudentDetails = studentDetails;
       --> this duplicateStudentDetails objects also refernce to studentDetails only .. it will not create new values..
-  
+ 
+ 
+ 
+4. Codekata Practice
