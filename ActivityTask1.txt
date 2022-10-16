@@ -53,7 +53,7 @@ Http2  :=
 Like if we assign another variable to same object name it will not copy the values . Instead it will copy of studentDetails reference objects
   eg:
     var duplicateStudentDetails = studentDetails;
-      --> this duplicateStudentDetails objects also refernce to studentDetails only .. it will not create new values..
+      --> this duplicateStudentDetails objects also refernce to studentDetails only .. it will not create new values...
  
  
  
